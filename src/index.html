@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cervantes</title>
+</head>
+
+<body class="bodyH">
+    <!--Navbar-->
+    <div class="container cuerpo">
+        <header>
+            <nav class="  navbar-expand-sm navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="navbar-brand">Navigation</div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link active " href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./detalles.html">Detalles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./contactos.html">Contactos</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <h1 class="title text-center  shadow-sm p-3 mb-2 bg-transparent rounded">
+                    <strong><i>Cervantes</i></strong>
+                </h1>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-7 pt-3">
+                <h1 class="reseña">Reseñas</h1>
+                <p>¿Estás buscando un buen Bodegón en Buenos Aires? <strong>¡Estás en el lugar indicado!</strong></p>
+
+                <p>Tines que probar nuestros platos de otro planeta <strong>¡Dale dale dale!</strong> Que estas
+                    esperando para conocer,
+                    una de nuestras sucursar ubicada en caba..
+                    Salí a recorrerlos y disfrutar de la verdadera gastronomía argentina.</p>
+                <button onclick='redireccionarAdetalles()' type="button" class="btn btn-primary mt-3 w-25">Ir a
+                    cartilla</button>
+            </div>
+            <div class="col-5">
+                <img class="pt-5 ms-3 rounded-3 imgIndex"
+                    src="https://antigourmet.com.ar/wp-content/uploads/2019/09/principal3-1140x641.jpg" width="500rem">
+            </div>
+            <div class="row">
+                <footer class="position-absolute bottom-0 col-11 ">
+                    <div class="bg-dark">
+                        <h2 class="text-center text-white">Contacto</h2>
+                        <div class="d-flex">
+                            <div class=" ms-4 pb-3 maps">
+                                <img  src="../img/ubi.PNG" width="580rem" height="140rem">
+                            </div>
+                            <div class="w-25">
+                                <ul>
+                                    <li class="text-white"><strong>Telefono:</strong> 011-25641598</li>
+                                    <li class="text-white"><strong>Cuenta:</strong> CervantesComida@gmail.com</li>
+                                    <li class="text-white"><strong>Dirección:</strong> Tte. Gral. Juan Domingo Perón
+                                        1883,
+                                        C1040
+                                        AAA, Buenos Aires</li>
+                                    <li class="text-white"><strong>Horarios:</strong> Lunes a Viernes de 12hs a 23hs.
+                                        Sabados:
+                                        Todo el dia </li>
+                                </ul>
+                            </div>
+                            <img class=" m-auto pb-3" src="../img/icon-pedidosYa.png" width="140rem" height="140rem">
+
+                        </div>
+                    </div>
+                    <div class="redes">
+                        <img class="me-2" src="../img/facebookIcon.png" width="30rem">
+                        <img class='ms-2'src="../img/instagramIcon.png" width="30rem">
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+</body>
+
+</html>

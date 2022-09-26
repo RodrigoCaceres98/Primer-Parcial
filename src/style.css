@@ -1,0 +1,98 @@
+body::-webkit-scrollbar{
+    width: 0%;
+}
+.bodyH{
+    background-image: url(../img/fondoIndex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 17em;
+}
+.bodyD{
+    background-image: url(../img/fondoDetalles.jpg);
+}
+.BodyC{
+    background-color: rgb(252, 244, 236);
+}
+.containerD{
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.containerF{
+    max-width: 28rem;
+    width: 100%;
+    border-style:double;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.cuerpoF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    height: 0.2rem;
+    position: absolute;
+    background-color: black;
+    color: inherit;
+    border-radius: 10rem;
+}
+.title{
+    font-size: 4rem;
+}
+.containerD li{
+    list-style:none;
+}
+.containerD ul{
+    padding-left: 0rem;
+    box-shadow: none;
+    
+}
+.containerD h6{
+    margin-bottom: 0;
+}
+.reseña{
+    font-size: 5rem;
+}
+.cuerpo p {
+    font-size: 1.2rem;
+}
+#botonForm{
+    width: 7rem;
+}
+
+.comentario{
+    width: 100%;
+    height: 3rem;
+    border-style:ridge;
+    background-color:rgb(186, 186, 196);
+}
+.redes{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 14.8rem;
+}
+@media screen and (max-width: 1250px){
+    .maps{
+        display: none;
+    }
+    .imgIndex{
+        display: none;
+    }
+}
+@media screen and (max-width: 1090){
+    .bodyH{
+        background-repeat: repeat-y;
+    }
+}
