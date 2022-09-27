@@ -1,0 +1,5 @@
+Mi proyecto consiste en una casa de comidas que vende tanto milanesas, como asado y entredas.. lo saque de un restaurante al que fui..
+ tiene un home, que da un dreve intro.. y tiene un boton que manda a los detalles.
+ despues tiene el menu donde muestra algunos de los platos y vinos con los que cuenta el restaurante.. 
+ Ademas consta con el menu(que es  detalle.html) donde muestra en forma detallada lo que brinda.
+ Y por ultimo tiene un pag donde podes mandarle un mail al correo del restaurante para dejar tus comentarios...
