@@ -1,6 +1,7 @@
 body::-webkit-scrollbar{
     width: 0%;
 }
+/* Home */
 .bodyH{
     background-image: url(../img/fondoIndex2.jpg);
     background-repeat: no-repeat;
@@ -9,6 +10,17 @@ body::-webkit-scrollbar{
     position: relative;
     padding-bottom: 17em;
 }
+.reseña{
+    font-size: 5rem;
+}
+footer{
+    height: 14.8rem;
+}
+.cuerpo p {
+    font-size: 1.2rem;
+}
+/* Menu */
+
 .bodyD{
     background-image: url(../img/fondoDetalles.jpg);
 }
@@ -59,12 +71,8 @@ body::-webkit-scrollbar{
 .containerD h6{
     margin-bottom: 0;
 }
-.reseña{
-    font-size: 5rem;
-}
-.cuerpo p {
-    font-size: 1.2rem;
-}
+
+
 #botonForm{
     width: 7rem;
 }
@@ -80,9 +88,9 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: center;
 }
-footer{
-    height: 14.8rem;
-}
+
+
+/* responsive */
 @media screen and (max-width: 1250px){
     .maps{
         display: none;
