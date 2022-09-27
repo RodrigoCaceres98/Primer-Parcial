@@ -19,13 +19,18 @@ footer{
 .cuerpo p {
     font-size: 1.2rem;
 }
-/* Menu */
+.redes{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 4rem;
+}
+/* Detalles */
 
 .bodyD{
     background-image: url(../img/fondoDetalles.jpg);
-}
-.BodyC{
-    background-color: rgb(252, 244, 236);
 }
 .containerD{
     max-width: 800px;
@@ -34,6 +39,22 @@ footer{
     position: relative;
     margin: auto;
 }
+.containerD li{
+    list-style:none;
+}
+.containerD ul{
+    padding-left: 0rem;
+    box-shadow: none;
+    
+}
+.containerD h6{
+    margin-bottom: 0;
+}
+/* Contactos */
+.BodyC{
+    background-color: rgb(252, 244, 236);
+}
+
 .containerF{
     max-width: 28rem;
     width: 100%;
@@ -49,29 +70,6 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.line{
-    width: 100%;
-    height: 0.2rem;
-    position: absolute;
-    background-color: black;
-    color: inherit;
-    border-radius: 10rem;
-}
-.title{
-    font-size: 4rem;
-}
-.containerD li{
-    list-style:none;
-}
-.containerD ul{
-    padding-left: 0rem;
-    box-shadow: none;
-    
-}
-.containerD h6{
-    margin-bottom: 0;
-}
-
 
 #botonForm{
     width: 7rem;
@@ -83,11 +81,22 @@ footer{
     border-style:ridge;
     background-color:rgb(186, 186, 196);
 }
-.redes{
-    background-color: rgb(163, 163, 163);
-    display: flex;
-    justify-content: center;
+
+
+.line{
+    width: 100%;
+    height: 0.2rem;
+    position: absolute;
+    background-color: black;
+    color: inherit;
+    border-radius: 10rem;
 }
+
+
+
+
+
+
 
 
 /* responsive */
